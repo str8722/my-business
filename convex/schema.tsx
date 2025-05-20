@@ -21,4 +21,7 @@ export default defineSchema({
     edificio: v.string(), 
     planta: v.string(), //Planta alta o baja
   }),
+  horarios: defineTable({
+    periodo: v.string(), // Periodo de tiempo (ej: "8:00 AM - 9:00 AM")
+  }),
 });
