@@ -16,4 +16,9 @@ export default defineSchema({
     identificador: v.string(), //Abreviatura de la materia
     nombreMateria: v.string(),
   }),
+  salones: defineTable({
+    numSalon: v.string(),
+    edificio: v.string(), 
+    planta: v.string(), //Planta alta o baja
+  }),
 });

@@ -16,6 +16,7 @@ import type {
 import type * as estudiantes from "../estudiantes.js";
 import type * as maestros from "../maestros.js";
 import type * as materias from "../materias.js";
+import type * as salones from "../salones.js";
 import type * as schema from "../schema.js";
 
 /**
@@ -30,6 +31,7 @@ declare const fullApi: ApiFromModules<{
   estudiantes: typeof estudiantes;
   maestros: typeof maestros;
   materias: typeof materias;
+  salones: typeof salones;
   schema: typeof schema;
 }>;
 export declare const api: FilterApi<
