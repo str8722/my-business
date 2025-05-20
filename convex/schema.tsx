@@ -7,4 +7,9 @@ export default defineSchema({
     nombre: v.string(),
     correo: v.string(),
   }),
+  maestros: defineTable({
+    numEmpleado: v.string(),
+    nombre: v.string(),
+    correo: v.string(),
+  }),
 });
