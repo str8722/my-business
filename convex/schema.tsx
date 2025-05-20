@@ -12,4 +12,8 @@ export default defineSchema({
     nombre: v.string(),
     correo: v.string(),
   }),
+  materias: defineTable({
+    identificador: v.string(), //Abreviatura de la materia
+    nombreMateria: v.string(),
+  }),
 });
